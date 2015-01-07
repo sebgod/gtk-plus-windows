@@ -33,7 +33,8 @@ ZIPS += freetype-dev_2.4.11-1_$(BITNESS).zip
 ZIPS += fontconfig_2.10.2-1_$(BITNESS).zip
 ZIPS += fontconfig-dev_2.10.2-1_$(BITNESS).zip
 # these are provided by msys/MinGW
-# ZIPS += zlib128-dll.zip XXX Specify bitness
+# ZIPS += zlib_1.2.7-1_$(BITNESS).zip
+# ZIPS += zlib-dev_1.2.7-1_$(BITNESS).zip
 # ZIPS += libiconv_1.13.1-1_$(BITNESS).zip
 # ZIPS += libiconv-dev_1.13.1-1_$(BITNESS).zip
 # ZIPS += gettext_0.18.2.1-1_$(BITNESS).zip
