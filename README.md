@@ -1,7 +1,8 @@
 gtk-plus-windows
 ================
 
-A [download script](Makefile) for the Gtk+ 3.x Windows port
+A [download script](Makefile) for the Gtk+ 3.x Windows port, can be used as a highly configurable
+package management for GTK+ applications.
 
 ## Features
 
@@ -23,3 +24,9 @@ A [download script](Makefile) for the Gtk+ 3.x Windows port
  * The script will not try to integrate the unpacked files with `MinGW/MSYS`
  * No way to update zip file version numbers without changing the [Makefile](Makefile)
  * Only detects zip file changes if the version number or file timestamp is changed.
+ * An implicit runtime requirement is libffi, which is *not* yet included in this script,
+   see [Alternatives](#alternatives)
+
+## Alternatives
+
+ * [gtk-win on sourceforge](http://sourceforge.net/projects/gtk-win/)
